@@ -53,7 +53,7 @@ nav ul li {
 }
 
 .grade {
-    margin: auto;
+    margin: 2% 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -61,9 +61,9 @@ nav ul li {
 
 .card {
     width: 32%;
-    background-color: rgb(59, 25, 121);
     margin-bottom: 1em;
     color: #FFF;
+    text-align: center;
 }
 
 @media (max-width: 640px) {
