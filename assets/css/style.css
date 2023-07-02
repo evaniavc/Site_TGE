@@ -81,12 +81,9 @@ nav ul li {
 .card button {
     border: none;
     border-radius: 50px;
-
     color: rgb(59, 25, 121);
     font-weight: bolder;
-
     padding: 0.2em 0.7em;
-
     transition: .2s;
 }
 
