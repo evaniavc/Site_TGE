@@ -1,15 +1,21 @@
 html,
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to right, rgb(195, 160, 1), #e0cd1a);
+}
+
+body{
+    overflow-x: hidden;
 }
 
 header {
+    width: 100%;
     margin: 0;
-}
-
-.container {
-    margin: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 .nav .nav-link:hover {
@@ -17,7 +23,28 @@ header {
     font-weight: bold;
 }
 
-.container #grad1 {
+.container-fluid {
     height: auto;
     background-image: linear-gradient(to right, rgb(195, 160, 1), #e0cd1a);
 }
+
+.main{
+    margin-top: 150px;
+}
+
+
+header, nav, ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+   }
+   
+   nav ul li {
+    margin-left: 1rem;
+   }
+
+
+   @media (min-width: 1200px){
+    .container {
+        max-width: 1300px !important;
+    }}
