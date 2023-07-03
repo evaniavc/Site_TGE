@@ -48,3 +48,16 @@ header, nav, ul {
     .container {
         max-width: 1300px !important;
     }}
+
+
+    
+    .carousel-inner .carousel-item{
+    height: 40%;
+    width: 40%;
+
+}
+
+.carousel {
+    position: relative;
+    align-items: center;
+}
