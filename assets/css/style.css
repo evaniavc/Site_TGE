@@ -49,20 +49,42 @@ nav ul li {
 @media (min-width: 1200px) {
     .container {
         max-width: 1300px !important;
-    }}
-
-
-    
-    .carousel-inner .carousel-item{
-    height: 40%;
-    width: 40%;
-
+    }
 }
 
-.carousel {
+.carousel-slide{
+    
+}
+
+#carouselExampleAutoplaying{
+    width: 35rem;
+    height: 22rem;
     position: relative;
-    align-items: center;
-    }
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin: 0 auto;
+}
+
+.carousel-inner{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    transition: 0.5s;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    object-fit: cover;
+}
 
 .grade {
     margin: 2% 10%;
@@ -127,12 +149,31 @@ nav ul li {
     }
 }
 
+@media screen and (max-width: 768px) {
+    #carouselExampleAutoplaying {
+        width: 80%;
+        height: auto;
+        max-width: 35rem;
+        border-radius: 3%;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        left: 0;
+        transform: none;
+    }
+
+    .carousel-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
 
 .grade .item img {
     border-radius: 10px;
     width: 100%;
 }
 
-h5{
+h5 {
     padding-bottom: 2%;
 }
