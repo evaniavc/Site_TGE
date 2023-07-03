@@ -100,7 +100,7 @@ nav ul li {
 
 .card button:hover {
     color: #FFF;
-    background-color: #008000;
+    background-color: #0b5ed7;
 }
 
 
@@ -131,4 +131,30 @@ nav ul li {
 .grade .item img {
     border-radius: 10px;
     width: 100%;
+}
+
+main{
+    display: flex;
+}
+
+main .produto-img {
+    width: 32%;
+    margin-bottom: 1em;
+    color: #FFF;
+    text-align: center;
+    padding-top: 10%;
+    margin-left: 10%;
+}
+
+.descricao li{
+    list-style: none;
+    padding-left: 10%;
+}
+
+.valor{
+    display: flex;
+}
+
+.btn{
+    width: 5 0%;
 }
