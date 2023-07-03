@@ -6,7 +6,7 @@ body {
     background-image: linear-gradient(to right, rgb(195, 160, 1), #e0cd1a);
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -28,25 +28,28 @@ header {
     background-image: linear-gradient(to right, rgb(195, 160, 1), #e0cd1a);
 }
 
-.main{
+.main {
     margin-top: 150px;
 }
 
 
-header, nav, ul {
+header,
+nav,
+ul {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-   }
-   
-   nav ul li {
+}
+
+nav ul li {
     margin-left: 1rem;
-   }
+}
 
 
-   @media (min-width: 1200px){
+@media (min-width: 1200px) {
     .container {
         max-width: 1300px !important;
+<<<<<<< HEAD
     }}
 
 
@@ -60,4 +63,76 @@ header, nav, ul {
 .carousel {
     position: relative;
     align-items: center;
+=======
+    }
+}
+
+.grade {
+    margin: 2% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 32%;
+    margin-bottom: 1em;
+    color: #FFF;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media (max-width: 460px) {
+    .card {
+        width: 100%;
+    }
+}
+
+.card button {
+    border: none;
+    border-radius: 50px;
+    font-weight: bolder;
+    padding: 0.2em 0.7em;
+    transition: .2s;
+}
+
+.card button:hover {
+    color: #FFF;
+    background-color: #008000;
+}
+
+
+.grade .item {
+    width: 24%;
+    position: relative;
+    text-align: center;
+}
+
+.item h2 {
+    font-size: 1em;
+}
+
+.categoria {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    transform: translate(-30%, -70%);
+}
+
+@media (max-width: 590px) {
+    .grade .item {
+        width: 48%;
+    }
+}
+
+
+.grade .item img {
+    border-radius: 10px;
+    width: 100%;
+>>>>>>> main
 }
