@@ -6,8 +6,231 @@ body {
     background-image: linear-gradient(to right, rgb(195, 160, 1), #e0cd1a);
 }
 
-
-body {
+body {ahtml,
+    body {
+        height: 100%;
+        margin:0;
+        padding-top: 60px;
+        background-image: linear-gradient(to right, rgb(195, 160, 1), #e0cd1a);
+    }
+    
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    header {
+        width: 100%;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .nav .nav-link:hover {
+        text-decoration: none !important;
+        font-weight: bold;
+    }
+    
+    .container-fluid {
+        height: auto;
+        background-image: linear-gradient(to right, rgb(195, 160, 1), #e0cd1a);
+    }
+    
+    .main {
+        margin-top: 150px;
+    }
+    
+    
+    header,
+    nav,
+    ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    
+    nav ul li {
+        margin-left: 1rem;
+    }
+    
+    
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1300px !important;
+        }
+    }
+    
+    .carousel-slide{
+        padding-top: 60px;
+    }
+    
+    #carouselExampleAutoplaying{
+        width: 35rem;
+        height: 22rem;
+        position: relative;
+        overflow: hidden;
+        border-radius: 0.5em;
+        margin: 0 auto;
+    }
+    
+    .carousel-inner{
+        height: 100%;
+        width: 300%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        transition: 0.5s;
+    }
+    
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .grade {
+        margin: 2% 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .card {
+        width: 32%;
+        margin-bottom: 1em;
+        color: #FFF;
+        text-align: center;
+    }
+    
+    @media (max-width: 640px) {
+        .card {
+            width: 48%;
+        }
+    }
+    
+    @media (max-width: 460px) {
+        .card {
+            width: 100%;
+        }
+    }
+    
+    .card button {
+        border: none;
+        border-radius: 50px;
+        font-weight: bolder;
+        padding: 0.2em 0.7em;
+        transition: .2s;
+    }
+    
+    .card button:hover {
+        color: #FFF;
+        background-color: #0b5ed7;
+    }
+    
+    
+    .grade .item {
+        width: 24%;
+        position: relative;
+        text-align: center;
+    }
+    
+    .item h2 {
+        font-size: 1em;
+    }
+    
+    .categoria {
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        transform: translate(-30%, -70%);
+    }
+    
+    @media (max-width: 590px) {
+        .grade .item {
+            width: 48%;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        #carouselExampleAutoplaying {
+            width: 80%;
+            height: auto;
+            max-width: 35rem;
+            border-radius: 3%;
+        }
+    
+        .carousel-inner {
+            width: 100%;
+            left: 0;
+            transform: none;
+        }
+    
+        .carousel-item {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    
+    .grade .item img {
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    main{
+        display: flex;
+    }
+    
+    main .produto-img {
+        width: 32%;
+        margin-bottom: 1em;
+        color: #FFF;
+        text-align: center;
+        padding-top: 0%;
+        margin-left: 10%;
+    }
+    
+    .descricao li{
+        list-style: none;
+        padding-left: 10%;
+    }
+    
+    .valor{
+        display: flex;
+    }
+    
+    .btn{
+        width: 5 0%;
+    }
+    
+    h5 {
+        padding-bottom: 2%;
+    }
+    
+    h3 {
+        text-align: justify;
+    }
+    
+    .geral {
+        display: flex;
+    }
+    
+    .descricao{
+        width: 80%;
+        text-align: justify;
+    }
+    
+    .descricao h3{
+        font-size: 2.5em;
+        text-align: center;
+        padding-bottom: 2%;
+    }
     overflow-x: hidden;
 }
 
