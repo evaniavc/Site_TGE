@@ -184,7 +184,7 @@ main .produto-img {
     margin-bottom: 1em;
     color: #FFF;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 0%;
     margin-left: 10%;
 }
 
@@ -202,5 +202,24 @@ main .produto-img {
 }
 
 h5 {
+    padding-bottom: 2%;
+}
+
+h3 {
+    text-align: justify;
+}
+
+.geral {
+    display: flex;
+}
+
+.descricao{
+    width: 80%;
+    text-align: justify;
+}
+
+.descricao h3{
+    font-size: 2.5em;
+    text-align: center;
     padding-bottom: 2%;
 }
