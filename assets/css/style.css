@@ -41,7 +41,6 @@ body {ahtml,
         margin-top: 150px;
     }
     
-    
     header,
     nav,
     ul {
@@ -434,15 +433,20 @@ h3 {
 
 .geral {
     display: flex;
+    justify-content: center;
+
 }
 
 .descricao{
     width: 80%;
     text-align: justify;
+    justify-content: center;
+    align-items: center;
 }
 
 .descricao h3{
     font-size: 2.5em;
     text-align: center;
     padding-bottom: 2%;
+    color: white;
 }
